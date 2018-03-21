@@ -1,0 +1,13 @@
+<li *ngFor="let task of tasks">
+    <a href="javascript:void(0);">
+        <h4>
+            Footer display issue
+            <small>{{task.percentage}}</small>
+        </h4>
+        <div class="progress">
+            <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="85" aria-valuemin="0" 
+                aria-valuemax="100" >
+            </div>
+        </div>
+    </a>
+</li>
